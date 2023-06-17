@@ -6,7 +6,7 @@ export default function CharacterDetailsModal( {character , toggleModal }: {char
   return (
     <dialog key={character.id} open>
         <img src={character.image} alt={character.name} />
-          <h2>{character.name}</h2>
+          <h2 className="golden">{character.name}</h2>
           <p>Gender {character.gender}</p>
           <p>Status: {character.status}</p>
           <p>Location: {character.location.name}</p>

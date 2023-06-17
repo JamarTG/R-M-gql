@@ -6,8 +6,10 @@ export default function ExportDetails({ episodeData } : EpisodeDetailsProps ) {
 
   return (
     <main className="regular-font" style={{width:"90vw", }}>   
-       <h1>RICK AND MORTY  -  {episode} </h1>
-      
+      <h1 >R&M  -  {episode} </h1>
+      <br />
+      <br />
+      <br />
       <CharacterList characters={episodeData.characters}/>
     </main>
   );

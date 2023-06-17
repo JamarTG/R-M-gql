@@ -7,7 +7,7 @@ export default function CharacterDetailsPreview( {character }: {character : Char
                 src={character.image}
                 alt={character.name}
               />
-              <h2>{character.name}</h2>
+              <h2 className="golden">{character.name}</h2>
               <p>Created: {character.created}</p>
           
             </div>)
